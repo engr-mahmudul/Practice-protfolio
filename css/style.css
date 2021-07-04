@@ -5,3 +5,27 @@ body{
 h1{
     font-size: 50px;
 }
+section{
+    /* div guloke pashapashi ana holo */
+    display: flex;
+}
+.half-width{
+  width: 50%;
+  padding-left: 5%;
+}
+.half-width img{
+    /* chobike chuto kore div ta thik kora holo */
+    width: 80%;
+}
+.name_color{
+    color: orange;
+}
+.link_button{
+    /* anchor tag er decoration_sorate */
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange,tomato);
+    font-weight: 700;
+    color: white;
+    border-radius: 15px;
+}
