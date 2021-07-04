@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-
+    margin: 0px;
 }
 h1{
     font-size: 50px;
@@ -8,6 +8,7 @@ h1{
 section{
     /* div guloke pashapashi ana holo */
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
   width: 50%;
@@ -28,4 +29,13 @@ section{
     font-weight: 700;
     color: white;
     border-radius: 15px;
+}
+.intro{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
